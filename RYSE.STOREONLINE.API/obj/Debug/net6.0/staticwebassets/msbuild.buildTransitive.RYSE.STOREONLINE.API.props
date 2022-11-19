@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RYSE.STOREONLINE.API.props" />
+</Project>

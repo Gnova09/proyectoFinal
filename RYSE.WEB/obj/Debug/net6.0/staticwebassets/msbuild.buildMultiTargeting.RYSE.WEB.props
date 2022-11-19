@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RYSE.WEB.props" />
+</Project>

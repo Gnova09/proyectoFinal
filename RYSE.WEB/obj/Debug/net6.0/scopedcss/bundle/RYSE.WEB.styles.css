@@ -1,0 +1,78 @@
+/* _content/RYSE.WEB/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+*[b-2pzf5oh5mn] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body[b-2pzf5oh5mn] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header[b-2pzf5oh5mn] {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imgs/images.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo[b-2pzf5oh5mn] {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-self: start;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    position: static;
+    color: white;
+    font-size: 25px;
+    padding: 18px;
+    background-color: rgb(56, 22, 54);
+    margin-top: 10px;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+
+.nav[b-2pzf5oh5mn] {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+
+.menu[b-2pzf5oh5mn] {
+    display: flex;
+}
+
+    .menu li[b-2pzf5oh5mn] {
+        list-style: none;
+        margin: 10px;
+    }
+
+        .menu li a[b-2pzf5oh5mn] {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 20px 20px;
+        }
+
+            .menu li a:hover[b-2pzf5oh5mn] {
+                padding: 5px 10px;
+                background: rgb(18, 197, 27);
+                color: black;
+                border-radius: 5px;
+            }
+
+.nav.actie[b-2pzf5oh5mn] {
+    background: rgb(56, 22, 54);
+    padding: 25px;
+}
+
+.scroll[b-2pzf5oh5mn] {
+    height: 100px;
+}

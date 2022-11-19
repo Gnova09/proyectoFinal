@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj": {}
+  },
+  "projects": {
+    "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj",
+        "projectName": "RYSE.STOREONLINE.SERVICE",
+        "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj",
+        "packagesPath": "C:\\Users\\Georg\\.nuget\\packages\\",
+        "outputPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programas(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Programas(x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj": {
+                "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Programas\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
+        "projectName": "RYSE.STOREONLINE.DAL",
+        "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
+        "packagesPath": "C:\\Users\\Georg\\.nuget\\packages\\",
+        "outputPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programas(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Programas(x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Programas\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
