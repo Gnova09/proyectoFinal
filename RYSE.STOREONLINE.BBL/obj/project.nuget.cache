@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HOIxIQXTw/ZyfMz/AuBfZehObHyYtb16j7Zz1a9rI3abk7Kqa49IJigjpbNeal7lsGQpbOM0VhQ9c+NLtwcW6g==",
+  "dgSpecHash": "PT2AfY7u5Eu9fKuDWgsmgFC5JimuYI6ooZiniTtBTQ13tfj3QM7Gjc+biB16sAJ78w3TFqvlpaXcZ2dJbwRkjw==",
   "success": true,
-  "projectFilePath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj",
+  "projectFilePath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Georg\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Georg\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19269.1\\microsoft.data.sqlclient.1.0.19269.1.nupkg.sha512",

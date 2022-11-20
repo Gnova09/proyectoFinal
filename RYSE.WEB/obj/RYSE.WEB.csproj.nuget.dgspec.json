@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\respo\\STOREONLINE\\RYSE.WEB\\RYSE.WEB.csproj": {}
+    "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.WEB\\RYSE.WEB.csproj": {}
   },
   "projects": {
-    "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj": {
+    "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj",
+        "projectUniqueName": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj",
         "projectName": "RYSE.STOREONLINE.SERVICE",
-        "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj",
+        "projectPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj",
         "packagesPath": "C:\\Users\\Georg\\.nuget\\packages\\",
-        "outputPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\obj\\",
+        "outputPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.BBL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Programas(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,8 +30,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj": {
-                "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj"
+              "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj": {
+                "projectPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj": {
+    "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
+        "projectUniqueName": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
         "projectName": "RYSE.STOREONLINE.DAL",
-        "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
+        "projectPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
         "packagesPath": "C:\\Users\\Georg\\.nuget\\packages\\",
-        "outputPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\obj\\",
+        "outputPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Programas(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -132,14 +132,14 @@
         }
       }
     },
-    "D:\\respo\\STOREONLINE\\RYSE.WEB\\RYSE.WEB.csproj": {
+    "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.WEB\\RYSE.WEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\respo\\STOREONLINE\\RYSE.WEB\\RYSE.WEB.csproj",
+        "projectUniqueName": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.WEB\\RYSE.WEB.csproj",
         "projectName": "RYSE.WEB",
-        "projectPath": "D:\\respo\\STOREONLINE\\RYSE.WEB\\RYSE.WEB.csproj",
+        "projectPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.WEB\\RYSE.WEB.csproj",
         "packagesPath": "C:\\Users\\Georg\\.nuget\\packages\\",
-        "outputPath": "D:\\respo\\STOREONLINE\\RYSE.WEB\\obj\\",
+        "outputPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.WEB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Programas(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -158,8 +158,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj": {
-                "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj"
+              "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj": {
+                "projectPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.BBL\\RYSE.STOREONLINE.SERVICE.csproj"
               }
             }
           }

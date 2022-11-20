@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.SERVICES\\RYSE.STOREONLINE.SERVICES.csproj": {}
+    "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.SERVICES\\RYSE.STOREONLINE.SERVICES.csproj": {}
   },
   "projects": {
-    "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.SERVICES\\RYSE.STOREONLINE.SERVICES.csproj": {
+    "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.SERVICES\\RYSE.STOREONLINE.SERVICES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.SERVICES\\RYSE.STOREONLINE.SERVICES.csproj",
+        "projectUniqueName": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.SERVICES\\RYSE.STOREONLINE.SERVICES.csproj",
         "projectName": "RYSE.STOREONLINE.SERVICES",
-        "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.SERVICES\\RYSE.STOREONLINE.SERVICES.csproj",
+        "projectPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.SERVICES\\RYSE.STOREONLINE.SERVICES.csproj",
         "packagesPath": "C:\\Users\\Georg\\.nuget\\packages\\",
-        "outputPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.SERVICES\\obj\\",
+        "outputPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.SERVICES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Programas(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ namespace RYSE.STOREONLINE.DAL.Context
         public DbSet<Item> Items { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Factura> Facturas { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
       
-
     }
 }

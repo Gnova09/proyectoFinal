@@ -4958,11 +4958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
+      "projectUniqueName": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
       "projectName": "RYSE.STOREONLINE.DAL",
-      "projectPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
+      "projectPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\RYSE.STOREONLINE.DAL.csproj",
       "packagesPath": "C:\\Users\\Georg\\.nuget\\packages\\",
-      "outputPath": "D:\\respo\\STOREONLINE\\RYSE.STOREONLINE.DAL\\obj\\",
+      "outputPath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.STOREONLINE.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programas(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "slJ4DCmslZIgU1U+ZpFWN/L83LP3LlP0ldOazVpYrpLrZzgqR8YQ82Rf4rZvQyvPyhhf2Fp7C7t5T+T/0RCOFQ==",
+  "dgSpecHash": "T/EP5TjxBWRw/XRRCyiOY1n2f34qJRrv7YjMCxhNJ/NMU5FA1pJ8XFcurqpoEHG/ZGGsa5qhmPvPLB0QyYpb8A==",
   "success": true,
-  "projectFilePath": "D:\\respo\\STOREONLINE\\RYSE.WEB\\RYSE.WEB.csproj",
+  "projectFilePath": "D:\\respo\\STOREONLINE\\proyectoFinal\\RYSE.WEB\\RYSE.WEB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Georg\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Georg\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
