@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RYSE.STOREONLINE.DAL",
+    "\\RYSE.STOREONLINE.DAL\\Interfaces"
   ],
-  "SelectedNode": "\\STOREONLINE.sln",
+  "SelectedNode": "\\RYSE.STOREONLINE.DAL\\Interfaces\\IItemRepository.cs",
   "PreviewInSolutionExplorer": false
 }
