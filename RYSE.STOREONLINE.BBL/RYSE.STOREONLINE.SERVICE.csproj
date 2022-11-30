@@ -10,4 +10,9 @@
     <ProjectReference Include="..\RYSE.STOREONLINE.DAL\RYSE.STOREONLINE.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
 </Project>

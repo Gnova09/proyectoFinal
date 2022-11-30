@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using RYSE.STOREONLINE.DAL.Context;
+using RYSE.STOREONLINE.DAL.Core;
 using RYSE.STOREONLINE.DAL.Interfaces;
 using System.Linq;
 using Item = RYSE.STOREONLINE.DAL.Entities.Item;
@@ -7,12 +8,12 @@ using Item = RYSE.STOREONLINE.DAL.Entities.Item;
 
 namespace RYSE.STOREONLINE.DAL.Repositories
 {
-    public class ItemRepository : IItemRepository
+    public class ItemRepository : RepositoryBase<Item>, IItemRepository
     {
         private readonly StoreContext context;
         private readonly ILogger<ItemRepository> logger;
 
-        public ItemRepository(StoreContext context,ILogger<ItemRepository> logger) {
+        public ItemRepository(StoreContext context,ILogger<ItemRepository> logger) :base (new DbFact(context)) {
             this.context = context;
             this.logger = logger;
         }
@@ -33,7 +34,7 @@ namespace RYSE.STOREONLINE.DAL.Repositories
            return context.Items.Find(itemID);  
         }
 
-        public void Remove(Entities.Item item)
+        public  override void Remove(Entities.Item item)
         {
             try
             {
@@ -46,7 +47,7 @@ namespace RYSE.STOREONLINE.DAL.Repositories
             }
         }
 
-        public void Save(Entities.Item item)
+        public override void Save(Entities.Item item)
         {
             try
             {
@@ -59,7 +60,7 @@ namespace RYSE.STOREONLINE.DAL.Repositories
             }
         }
 
-        public void Update(Entities.Item item)
+        public override void Update(Entities.Item item)
         {
             try { 
             context.Items.Update(item);

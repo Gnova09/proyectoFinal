@@ -1,14 +1,10 @@
-﻿using Item = RYSE.STOREONLINE.DAL.Entities.Item;
+﻿using RYSE.STOREONLINE.DAL.Core;
+using Item = RYSE.STOREONLINE.DAL.Entities.Item;
 
 namespace RYSE.STOREONLINE.DAL.Interfaces
 {
-    public interface IItemRepository
+    public interface IItemRepository: IRepositoryBase<Item>
 	{
-		void Save(Item item);
-
-        void Update(Item item);
-
-        void Remove(Item item);
 
         Item GetItems( int itemID);
 
