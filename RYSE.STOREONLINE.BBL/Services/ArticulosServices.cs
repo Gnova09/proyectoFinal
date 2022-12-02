@@ -1,12 +1,15 @@
 ﻿using System;
 
 using Microsoft.Extensions.Logging;
+using RYSE.STOREONLINE.DAL.Core;
 using RYSE.STOREONLINE.DAL.Interfaces;
 using RYSE.STOREONLINE.DAL.Repositories;
 using RYSE.STOREONLINE.SERVICE.Contracts;
 using RYSE.STOREONLINE.SERVICE.Core;
 using RYSE.STOREONLINE.SERVICE.Dtos;
 using RYSE.STOREONLINE.SERVICE.Responses;
+using RYSE.STOREONLINE.SERVICE.Validations;
+
 
 namespace RYSE.STOREONLINE.SERVICE.Services
 {
@@ -50,7 +53,7 @@ namespace RYSE.STOREONLINE.SERVICE.Services
 
             try 
             {
-                var Articulos = itemRepository.GetAll();
+                var Articulos = itemRepository.GetEntities();
                 article.Data= Articulos.Select(art=> new Models.ArticulosModel()
                 {
                     Id=art.Id,
@@ -70,12 +73,42 @@ namespace RYSE.STOREONLINE.SERVICE.Services
 
         public ArticuloResponses SaveArticulos(ArticulosSaveDto articulosSaveDto)
         {
-            throw new NotImplementedException();
+            ServiceResult resultSave= new ServiceResult();
+                        
+            try
+            {
+                //validamos que los campos no esten vacios
+                ArticulosValidation.SaveArticulosValidation(articulosSaveDto, resultSave);
+                 
+            }
+            catch (Exception e)
+            {
+                resultSave.Success = false;
+                resultSave.Message = "Error al Guardar los articulos";
+                this.logger.LogError($"{resultSave.Message}", e.ToString());
+
+            }
+            return (ArticuloResponses)resultSave;
         }
 
         public ArticuloResponses UpdateArticulos(ArticulosUpdateDto articulosUpdateDto)
         {
-            throw new NotImplementedException();
+            ServiceResult resultUpdate = new ServiceResult();
+
+            try
+            {
+                //validamos que los campos no esten vacios
+                ArticulosValidation.UpdateArticulosValidation(articulosUpdateDto, resultUpdate);
+
+            }
+            catch (Exception e)
+            {
+                resultUpdate.Success = false;
+                resultUpdate.Message = "Error al Actualizar los articulos";
+                this.logger.LogError($"{resultUpdate.Message}", e.ToString());
+
+            }
+            return (ArticuloResponses)resultUpdate;
         }
     }
 }

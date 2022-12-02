@@ -3,6 +3,7 @@ using RYSE.STOREONLINE.DAL.Context;
 using RYSE.STOREONLINE.DAL.Core;
 using RYSE.STOREONLINE.DAL.Interfaces;
 using System.Linq;
+using System.Linq.Expressions;
 using Item = RYSE.STOREONLINE.DAL.Entities.Item;
 
 
@@ -18,9 +19,11 @@ namespace RYSE.STOREONLINE.DAL.Repositories
             this.logger = logger;
         }
 
-        public bool Exists(int itemID)
+
+        public override bool Exists(Expression<Func<Item, bool>> filter)
         {
-            return context.Items.Any(cd => cd.Id == itemID);
+            return context.Items.Any(filter);
+            
         }
 
         public IEnumerable<Item> GetAll()

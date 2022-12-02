@@ -1,4 +1,5 @@
 ﻿using RYSE.STOREONLINE.DAL.Core;
+using System.Linq.Expressions;
 using Item = RYSE.STOREONLINE.DAL.Entities.Item;
 
 namespace RYSE.STOREONLINE.DAL.Interfaces
@@ -7,9 +8,6 @@ namespace RYSE.STOREONLINE.DAL.Interfaces
 	{
 
         Item GetItems( int itemID);
-
-        bool Exists(int itemID);
-
         IEnumerable<Item> GetAll();
 
     }
