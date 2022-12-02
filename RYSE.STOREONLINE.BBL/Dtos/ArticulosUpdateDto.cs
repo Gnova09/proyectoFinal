@@ -13,6 +13,9 @@ namespace RYSE.STOREONLINE.SERVICE.Dtos
         public string? Tamano { get; set; }
         public string? Name { get; set; }
         public int Cant { get; set; }
+        public DateTime CreationDate { get; set; }
+        public int UserCreation { get; set; }
+
         public int UserModify { get; set; }
         public DateTime ModifyDate { get; set; }
     }

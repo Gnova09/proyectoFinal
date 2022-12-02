@@ -20,7 +20,7 @@ namespace RYSE.STOREONLINE.DAL.Repositories
         }
 
 
-        public override bool Exists(Expression<Func<Item, bool>> filter)
+        public bool Exists(Expression<Func<Item, bool>> filter)
         {
             return context.Items.Any(filter);
             

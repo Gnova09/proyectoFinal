@@ -78,7 +78,7 @@ namespace RYSE.STOREONLINE.SERVICE.Services
             try
             {
                 //validamos que los campos no esten vacios
-                ArticulosValidation.SaveArticulosValidation(articulosSaveDto, resultSave);
+                ArticulosValidation.SaveArticulosValidation(articulosSaveDto, resultSave, ItemRepository);
                  
             }
             catch (Exception e)
